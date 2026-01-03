@@ -26,33 +26,18 @@ certificate-verification-blockchain/
 ├── truffle-config.js
 └── README.md
 
-markdown
-Copy code
-
 ## ▶️ How to Run
 1. Start Ganache
 2. Compile contracts:
 truffle compile
-
-markdown
-Copy code
 3. Deploy contracts:
 truffle migrate --reset
-
-bash
-Copy code
 4. Run backend test:
 node testContract.js
-
-pgsql
-Copy code
 5. Open `index.html` using Live Server
 
 ## 🔐 Sample Certificate Hash
 hash002
-
-markdown
-Copy code
 
 ## 👩‍💻 Author
 **Boomika Subramani**
